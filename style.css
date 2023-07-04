@@ -2,3 +2,62 @@
     margin: 0;
     padding: 0;
 }
+
+.cabecalho {
+    border: 1px black solid;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    justify-content: space-between;
+}
+
+button{
+    width: 100px;
+    height: 25px;
+    border-radius: 5px; /*arredonda as bordas*/
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-between;
+}
+
+.container{
+    display: flex;
+   /* flex-direction: column; */
+    height: 70vh;
+   /* gap: 20px; distância entre os articles */
+    padding: 0 16px;
+    flex-wrap:wrap;
+    gap: 50px;
+}
+
+.menu-esquerda{
+    border: 1px solid black;
+    width: 300px;
+}
+
+.menu-direita{
+    border: 1px solid black;
+    order: 1;
+    width: 300px;
+    align-self: stretch;
+}
+
+.text-container{
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+}
+
+img{
+    width: 160px;
+    height: 160px;
+}
+
+figcaption{
+    width: 160px;
+}
